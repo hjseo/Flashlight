@@ -12,6 +12,7 @@
 		15AC632220F8910800F2BC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AC632020F8910800F2BC08 /* Main.storyboard */; };
 		15AC632420F8910900F2BC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AC632320F8910900F2BC08 /* Assets.xcassets */; };
 		15AC632720F8910900F2BC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AC632520F8910900F2BC08 /* LaunchScreen.storyboard */; };
+		15AC632F20F8A31300F2BC08 /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15AC632E20F8A31300F2BC08 /* switch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		15AC632320F8910900F2BC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15AC632620F8910900F2BC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15AC632820F8910900F2BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AC632E20F8A31300F2BC08 /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				15AC632320F8910900F2BC08 /* Assets.xcassets */,
 				15AC632520F8910900F2BC08 /* LaunchScreen.storyboard */,
 				15AC632820F8910900F2BC08 /* Info.plist */,
+				15AC632E20F8A31300F2BC08 /* switch.wav */,
 			);
 			path = Flashlight;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AC632F20F8A31300F2BC08 /* switch.wav in Resources */,
 				15AC632720F8910900F2BC08 /* LaunchScreen.storyboard in Resources */,
 				15AC632420F8910900F2BC08 /* Assets.xcassets in Resources */,
 				15AC632220F8910800F2BC08 /* Main.storyboard in Resources */,
