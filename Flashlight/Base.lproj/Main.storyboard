@@ -24,6 +24,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkq-rD-fqj">
                                 <rect key="frame" x="172" y="348.5" width="30" height="70"/>
                                 <state key="normal" image="offSwitch"/>
+                                <connections>
+                                    <action selector="switchTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scm-FW-StK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,6 +40,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="flashImageView" destination="aBY-xi-NaS" id="OMa-Tz-Iq7"/>
+                        <outlet property="switchButton" destination="Nkq-rD-fqj" id="npi-A0-QmH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
